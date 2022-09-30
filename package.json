@@ -9,8 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "animejs": "^3.2.1",
+    "particles.js": "^2.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-anime": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.8.7",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

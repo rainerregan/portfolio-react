@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply bg-primary-gray;
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("./assets/fonts/JetBrainsMono-Regular.ttf");
 }

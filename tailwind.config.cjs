@@ -10,7 +10,10 @@ module.exports = {
       colors: {
         'primary-gray': '#212121',
         'primary-red': '#F02F43'
-      }
+      },
+      fontFamily: {
+        'jet-brains-mono': ["JetBrainsMono", "sans-serif"],
+      },
     },
   },
   plugins: [],
