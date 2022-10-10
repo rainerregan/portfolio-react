@@ -4,8 +4,8 @@ import { Link } from 'react-scroll'
 function Header() {
   return (
       
-      <div className='bg-primary-gray fixed w-full top-0 z-50'>
-        <div className='flex justify-between m-auto px-4 py-4 pt-8 items-center font-jet-brains-mono max-w-7xl w-full'>
+      <div className='bg-gray-900 w-full top-0 z-50'>
+        <div className='flex justify-between m-auto px-4 py-4 pt-8 items-center font-jet-brains-mono max-w-6xl w-full'>
             <div>
                 <p className='text-2xl'>rainer.regan</p>
             </div>

@@ -6,3 +6,12 @@
     font-family: "JetBrainsMono";
     src: url("./assets/fonts/JetBrainsMono-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+body {
+    @apply font-poppins
+}

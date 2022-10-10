@@ -9,10 +9,11 @@ function Hero() {
   const handleClick = () => setChecked(!checked)
 
   return (
-    <div className='grid grid-cols-2 p-4 h-full max-w-7xl m-auto'>
+    <div className='grid grid-cols-2 p-4 h-full max-w-6xl m-auto'>
       <div className='flex flex-col justify-center gap-4'>
         
-        <h1 className='text-7xl'>Hello, I'm Rainer Regan</h1>
+        <p className='text-primary-red'>WELCOME TO MY SITE</p>
+        <h1 className='text-6xl'>Hello, I'm Rainer Regan</h1>
         <Typewriter
           onInit={(typewriter) => {
             typewriter
@@ -52,10 +53,10 @@ function Hero() {
         </div>
       </div>
 
-      <div className='flex flex-col gap-4 items-center justify-center'>
+      <div className='flex flex-col gap-2 items-center justify-center'>
         <p className='text-xl'>Try me!</p>
 
-        <div className='h-[500px] flex items-center'>
+        <div className='h-fit flex items-center'>
 
           {checked ?
             <Mobile />

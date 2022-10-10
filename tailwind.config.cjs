@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         'jet-brains-mono': ["JetBrainsMono", "sans-serif"],
+        'poppins': ['Poppins', "sans-serif"],
       },
     },
   },
