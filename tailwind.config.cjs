@@ -9,7 +9,12 @@ module.exports = {
     extend: {
       colors: {
         'primary-gray': '#212121',
-        'primary-red': '#F02F43'
+        'primary-red': '#F02F43',
+        'bright-yellow': "#FEDB39",
+        'bright-red': "#D61C4E",
+        'bright-cyan': "#1CD6CE",
+        'dark-navy': "#293462",
+        'calm-white': "#FFFAE7",
       },
       fontFamily: {
         'jet-brains-mono': ["JetBrainsMono", "sans-serif"],

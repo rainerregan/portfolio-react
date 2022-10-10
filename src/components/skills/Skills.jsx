@@ -12,41 +12,41 @@ import { Link } from 'react-scroll';
 
 function Skills() {
     return (
-        <div className='w-full max-w-6xl m-auto px-4 h-screen text-white flex flex-col justify-center py-16'>
+        <div className='w-full max-w-6xl m-auto px-4 h-screen text-bright-yellow flex flex-col justify-center py-16'>
             <div>
                 <h1 className='font-jet-brains-mono text-3xl font-semibold'>What am I Great at.</h1>
-                <p className=''>Technical skills that I am good at.</p>
+                <p className='text-calm-white'>Technical skills that I am experienced at.</p>
                 <Line />
             </div>
 
             <div className='grid grid-cols-6 w-full gap-4 mt-8'>
                 <SkillTab
-                    icon={<FaLaravel className="fill-gray-100 w-10 h-10" />}
+                    icon={<FaLaravel className="fill-bright-red w-10 h-10" />}
                     title="Laravel"
                     subtitle="Lorem ipsum sit dolor amet."
                 />
                 <SkillTab
-                    icon={<RiReactjsFill className="fill-gray-100 w-10 h-10" />}
+                    icon={<RiReactjsFill className="fill-bright-red w-10 h-10" />}
                     title="React"
                     subtitle="Lorem ipsum sit dolor amet."
                 />
                 <SkillTab
-                    icon={<RiFlutterFill className="fill-gray-100 w-10 h-10" />}
+                    icon={<RiFlutterFill className="fill-bright-red w-10 h-10" />}
                     title="Flutter"
                     subtitle="Lorem ipsum sit dolor amet."
                 />
                 <SkillTab
-                    icon={<FaPhp className="fill-gray-100 w-10 h-10" />}
+                    icon={<FaPhp className="fill-bright-red w-10 h-10" />}
                     title="PHP"
                     subtitle="Lorem ipsum sit dolor amet."
                 />
                 <SkillTab
-                    icon={<GrNode className="fill-gray-100 w-10 h-10" />}
+                    icon={<GrNode className="fill-bright-red w-10 h-10" />}
                     title="Node.js"
                     subtitle="Lorem ipsum sit dolor amet."
                 />
                 <SkillTab
-                    icon={<SiTailwindcss className="fill-gray-100 w-10 h-10" />}
+                    icon={<SiTailwindcss className="fill-bright-red w-10 h-10" />}
                     title="Tailwind CSS"
                     subtitle="Lorem ipsum sit dolor amet."
                 />
