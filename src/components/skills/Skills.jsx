@@ -14,7 +14,7 @@ function Skills() {
     return (
         <div className='w-full max-w-6xl m-auto px-4 h-screen text-bright-yellow flex flex-col justify-center py-16'>
             <div>
-                <h1 className='font-jet-brains-mono text-3xl font-semibold'>What am I Great at.</h1>
+                <h1 className='font-jet-brains-mono text-3xl font-semibold' data-aos="fade-right">_What_am_I_Great_at;</h1>
                 <p className='text-calm-white'>Technical skills that I am experienced at.</p>
                 <Line />
             </div>
@@ -29,26 +29,31 @@ function Skills() {
                     icon={<RiReactjsFill className="fill-bright-red w-10 h-10" />}
                     title="React"
                     subtitle="Lorem ipsum sit dolor amet."
+                    animateDelay="100"
                 />
                 <SkillTab
                     icon={<RiFlutterFill className="fill-bright-red w-10 h-10" />}
                     title="Flutter"
                     subtitle="Lorem ipsum sit dolor amet."
+                    animateDelay="200"
                 />
                 <SkillTab
                     icon={<FaPhp className="fill-bright-red w-10 h-10" />}
                     title="PHP"
                     subtitle="Lorem ipsum sit dolor amet."
+                    animateDelay="300"
                 />
                 <SkillTab
                     icon={<GrNode className="fill-bright-red w-10 h-10" />}
                     title="Node.js"
                     subtitle="Lorem ipsum sit dolor amet."
+                    animateDelay="400"
                 />
                 <SkillTab
                     icon={<SiTailwindcss className="fill-bright-red w-10 h-10" />}
                     title="Tailwind CSS"
                     subtitle="Lorem ipsum sit dolor amet."
+                    animateDelay="500"
                 />
             </div>
 

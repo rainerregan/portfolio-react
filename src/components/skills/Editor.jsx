@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect'
 
 function Editor() {
     return (
-        <div className='flex justify-center items-center text-white'>
+        <div className='flex justify-center items-center text-white' data-aos="zoom-in">
             <div className='bg-dark-navy w-full rounded-xl flex flex-col shadow-lg shadow-gray-600'>
                 <div className='w-full h-[30px] bg-bright-red rounded-t-xl flex justify-between items-center px-4'>
                     <p className='text-xs text-white font-semibold'>cool_app.js</p>
