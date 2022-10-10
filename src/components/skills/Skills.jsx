@@ -14,7 +14,7 @@ function Skills() {
     return (
         <div className='w-full max-w-6xl m-auto px-4 h-screen text-bright-yellow flex flex-col justify-center py-16'>
             <div>
-                <h1 className='font-jet-brains-mono text-3xl font-semibold' data-aos="fade-right">_What_am_I_Great_at;</h1>
+                <h1 className='font-jet-brains-mono text-3xl font-semibold mb-2' data-aos="fade-right">_What_am_I_Great_at;</h1>
                 <p className='text-calm-white'>Technical skills that I am experienced at.</p>
                 <Line />
             </div>

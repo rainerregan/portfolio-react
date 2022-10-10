@@ -15,6 +15,8 @@ module.exports = {
         'bright-cyan': "#1CD6CE",
         'dark-navy': "#293462",
         'calm-white': "#FFFAE7",
+        'linked-in': "#0e76a8",
+        'github': "#171515",
       },
       fontFamily: {
         'jet-brains-mono': ["JetBrainsMono", "sans-serif"],
