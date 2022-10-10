@@ -18,61 +18,38 @@ function Skills() {
                 <p className=''>Technical skills that I am good at.</p>
                 <Line />
             </div>
-            {/* <Typewriter
-                onInit={(typewriter) => {
-                    typewriter
-                        .typeString("What Am I Not")
-                        .deleteChars(3)
-                        .typeString("Great At.")
-                        .pauseFor(3000)
-                        .deleteAll()
-                        .typeString('My Skills Set.')
-                        .pauseFor(3000)
-                        .start();
-                }}
 
-                options={{
-                    autoStart: true,
-                    loop: true,
-                    wrapperClassName: "text-4xl font-jet-brains-mono font-bold mb-8",
-                    cursorClassName: "Typewriter__cursor text-4xl"
-                }}
-            /> */}
-
-            <div className='grid grid-cols-2 w-full mt-8'>
-                <Editor />
-                <div className='grid grid-cols-4 h-full w-full pl-4 gap-4'>
-                    <SkillTab
-                        icon={<FaLaravel className="fill-gray-100 w-10 h-10" />}
-                        title="Laravel"
-                        subtitle="Lorem ipsum sit dolor amet."
-                    />
-                    <SkillTab
-                        icon={<RiReactjsFill className="fill-gray-100 w-10 h-10" />}
-                        title="React"
-                        subtitle="Lorem ipsum sit dolor amet."
-                    />
-                    <SkillTab
-                        icon={<RiFlutterFill className="fill-gray-100 w-10 h-10" />}
-                        title="Flutter"
-                        subtitle="Lorem ipsum sit dolor amet."
-                    />
-                    <SkillTab
-                        icon={<FaPhp className="fill-gray-100 w-10 h-10" />}
-                        title="PHP"
-                        subtitle="Lorem ipsum sit dolor amet."
-                    />
-                    <SkillTab
-                        icon={<GrNode className="fill-gray-100 w-10 h-10" />}
-                        title="Node.js"
-                        subtitle="Lorem ipsum sit dolor amet."
-                    />
-                    <SkillTab
-                        icon={<SiTailwindcss className="fill-gray-100 w-10 h-10" />}
-                        title="Tailwind CSS"
-                        subtitle="Lorem ipsum sit dolor amet."
-                    />
-                </div>
+            <div className='grid grid-cols-6 w-full gap-4 mt-8'>
+                <SkillTab
+                    icon={<FaLaravel className="fill-gray-100 w-10 h-10" />}
+                    title="Laravel"
+                    subtitle="Lorem ipsum sit dolor amet."
+                />
+                <SkillTab
+                    icon={<RiReactjsFill className="fill-gray-100 w-10 h-10" />}
+                    title="React"
+                    subtitle="Lorem ipsum sit dolor amet."
+                />
+                <SkillTab
+                    icon={<RiFlutterFill className="fill-gray-100 w-10 h-10" />}
+                    title="Flutter"
+                    subtitle="Lorem ipsum sit dolor amet."
+                />
+                <SkillTab
+                    icon={<FaPhp className="fill-gray-100 w-10 h-10" />}
+                    title="PHP"
+                    subtitle="Lorem ipsum sit dolor amet."
+                />
+                <SkillTab
+                    icon={<GrNode className="fill-gray-100 w-10 h-10" />}
+                    title="Node.js"
+                    subtitle="Lorem ipsum sit dolor amet."
+                />
+                <SkillTab
+                    icon={<SiTailwindcss className="fill-gray-100 w-10 h-10" />}
+                    title="Tailwind CSS"
+                    subtitle="Lorem ipsum sit dolor amet."
+                />
             </div>
 
             <div className='flex items-center gap-4 mt-4 justify-end'>

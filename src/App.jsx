@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
-import "animate.css/animate.min.css";
+import 'animate.css';
 import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 

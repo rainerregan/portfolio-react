@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 function Editor() {
     return (
         <div className='flex justify-center items-center'>
-            <div className='bg-gray-900 w-full rounded-xl flex flex-col h-full'>
+            <div className='bg-gray-800 w-full rounded-xl flex flex-col'>
                 <div className='w-full h-[30px] bg-gray-400 rounded-t-xl flex justify-between items-center px-4'>
                     <p className='text-xs text-gray-600 font-semibold'>cool_app.js</p>
                     <div className='flex gap-2'>
