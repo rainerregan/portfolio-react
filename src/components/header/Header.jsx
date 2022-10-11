@@ -4,7 +4,7 @@ import ProgressBar from "react-scroll-progress-bar";
 
 function Header() {
   return (
-      <div className='w-full fixed bg-bright-yellow top-0 z-50'>
+      <div className='w-full fixed top-0 z-50 bg-bright-yellow'>
           <ProgressBar bgcolor="#D61C4E" />
         <div className='flex justify-between m-auto px-4 py-4 items-center font-jet-brains-mono max-w-6xl w-full text-dark-navy'>
             <div>

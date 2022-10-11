@@ -4,8 +4,8 @@ import Typewriter from 'typewriter-effect'
 function Editor() {
     return (
         <div className='flex justify-center items-center text-white' data-aos="zoom-in">
-            <div className='bg-dark-navy w-full rounded-xl flex flex-col shadow-lg shadow-gray-600'>
-                <div className='w-full h-[30px] bg-bright-red rounded-t-xl flex justify-between items-center px-4'>
+            <div className='bg-dark-navy w-full rounded-xl flex flex-col shadow-lg shadow-gray-700/50'>
+                <div className='w-full h-[30px] bg-gradient-to-tr from-bright-red to-red-500 rounded-t-xl flex justify-between items-center px-4'>
                     <p className='text-xs text-white font-semibold'>cool_app.js</p>
                     <div className='flex gap-2'>
                         <div className='hover:cursor-pointer w-3 h-3 bg-green-400 rounded-full'></div>
@@ -14,7 +14,7 @@ function Editor() {
                     </div>
                 </div>
                 <div className='flex flex-1'>
-                    <div className='basis-[150px] border-r border-gray-700 flex flex-col'>
+                    <div className='basis-[150px] border-r border-gray-300 flex flex-col'>
                         <div className='bg-gray-700 border-b px-2 py-1 flex gap-2 items-center justify-between border-gray-600'>
                             <p className='text-xs'>cool_app.js</p>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-3 h-3 hover:cursor-pointer">

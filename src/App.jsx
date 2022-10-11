@@ -19,7 +19,7 @@ function App() {
       </div>
 
       {/* Section 2 */}
-      <div className='bg-dark-navy' id='skills-section'>
+      <div className='bg-dark-navy h-screen' id='skills-section'>
         <Skills  />
       </div>
 

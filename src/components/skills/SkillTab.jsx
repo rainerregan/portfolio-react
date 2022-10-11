@@ -3,8 +3,8 @@ import { ReactComponent as Laravel } from '../../assets/svg/laravel.svg'
 
 function SkillTab(props) {
     return (
-        <div id='anchor' className='w-full aspect-square bg-bright-yellow p-4 rounded-xl flex flex-col gap-1 items-center justify-center'
-            data-aos="fade-up"
+        <div id='anchor' className='w-full h-full aspect-square bg-bright-yellow p-4 rounded-xl flex flex-col gap-1 items-center justify-center'
+            data-aos="fade-down"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
             data-aos-delay={props.animateDelay}>

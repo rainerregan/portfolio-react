@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Line() {
+function Line({dataAos}) {
   return (
-    <div className='w-10 h-1 bg-primary-red mt-4'></div>
+    <div data-aos={dataAos} className='w-10 h-1 bg-primary-red mt-4'></div>
   )
 }
 

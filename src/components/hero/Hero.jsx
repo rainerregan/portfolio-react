@@ -49,13 +49,13 @@ function Hero() {
 
         <div className='mt-2 flex gap-2'>
           <a href="" className='flex'>
-            <div className='flex gap-2 px-4 py-2 rounded bg-github text-white items-center'>
+            <div className='flex gap-2 px-4 py-2 rounded bg-gradient-to-tr from-github to-gray-600 hover:shadow-xl duration-500 transition ease-in-out text-white items-center'>
               <FaGithub />
               <p>GitHub</p>
             </div>
           </a>
           <a href="" className='flex'>
-            <div className='flex gap-2 px-4 py-2 rounded bg-linked-in text-white items-center'>
+            <div className='flex gap-2 px-4 py-2 rounded bg-gradient-to-tr from-linked-in to-blue-500 text-white items-center'>
               <FaLinkedin />
               <p>LinkedIn</p>
             </div>

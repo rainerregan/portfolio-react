@@ -13,51 +13,51 @@ import { Link } from 'react-scroll';
 function Skills() {
     return (
         <div className='w-full max-w-6xl m-auto px-4 h-screen text-bright-yellow flex flex-col justify-center py-16'>
-            <div>
-                <h1 className='font-jet-brains-mono text-3xl font-semibold mb-2' data-aos="fade-right">_What_am_I_Great_at;</h1>
+            <div  data-aos="fade-right">
+                <h1 className='font-jet-brains-mono text-3xl font-semibold mb-2'>_My_Skills;</h1>
                 <p className='text-calm-white'>Technical skills that I am experienced at.</p>
                 <Line />
             </div>
 
-            <div className='grid grid-cols-6 w-full gap-4 mt-8'>
+            <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 w-full gap-4 mt-8'>
                 <SkillTab
-                    icon={<FaLaravel className="fill-bright-red w-10 h-10" />}
+                    icon={<FaLaravel className="fill-bright-red w-14 h-14" />}
                     title="Laravel"
                     subtitle="Lorem ipsum sit dolor amet."
                 />
                 <SkillTab
-                    icon={<RiReactjsFill className="fill-bright-red w-10 h-10" />}
+                    icon={<RiReactjsFill className="fill-bright-red w-14 h-14" />}
                     title="React"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="100"
                 />
                 <SkillTab
-                    icon={<RiFlutterFill className="fill-bright-red w-10 h-10" />}
+                    icon={<RiFlutterFill className="fill-bright-red w-14 h-14" />}
                     title="Flutter"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="200"
                 />
                 <SkillTab
-                    icon={<FaPhp className="fill-bright-red w-10 h-10" />}
+                    icon={<FaPhp className="fill-bright-red w-14 h-14" />}
                     title="PHP"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="300"
                 />
                 <SkillTab
-                    icon={<GrNode className="fill-bright-red w-10 h-10" />}
+                    icon={<GrNode className="fill-bright-red w-14 h-14" />}
                     title="Node.js"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="400"
                 />
                 <SkillTab
-                    icon={<SiTailwindcss className="fill-bright-red w-10 h-10" />}
+                    icon={<SiTailwindcss className="fill-bright-red w-14 h-14" />}
                     title="Tailwind CSS"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="500"
                 />
             </div>
 
-            <div className='flex items-center gap-4 mt-4 justify-end'>
+            <div className='flex items-center gap-4 mt-4 justify-end' data-aos="fade-left" data-aos-delay="100">
                 <p className='text-lg'>My Projects</p>
                 <Link className='w-[64px] h-[64px] border-2 border-white rounded-full flex justify-center items-center hover:cursor-pointer hover:bg-white hover:text-primary-gray transition duration-200' to="projects-section" spy={true} smooth={true} duration={1000}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8">
