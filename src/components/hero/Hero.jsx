@@ -6,6 +6,7 @@ import { Button, Link } from 'react-scroll';
 import SampleApp from './SampleApp';
 import Editor from '../skills/Editor';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import Paragraph from '../misc/Paragraph';
 
 function Hero() {
   return (
@@ -43,9 +44,9 @@ function Hero() {
           }}
         />
 
-        <p className='text-sm text-gray-500' data-aos="fade-right" data-aos-delay="200">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, error voluptate. Natus, consequuntur quasi cupiditate neque, ad ipsa fuga nulla quia deleniti minima aperiam alias optio veniam, autem placeat ipsum!
-        </p>
+        <Paragraph dataAos={"fade-right"} dataAosDelay="200">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vel nam expedita voluptatum, corporis aliquid, quo, eum aspernatur optio illum ducimus atque odit harum unde ratione? Vero iusto voluptates similique.
+        </Paragraph>
 
         <div className='mt-2 flex gap-2'>
           <a href="" className='flex'>

@@ -6,6 +6,7 @@ import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Dopami from './components/projects/dopami/Dopami';
 
 function App() {
   Aos.init();
@@ -26,6 +27,10 @@ function App() {
       {/* Section 3 */}
       <div className='bg-bright-yellow' id='projects-section'>
         <Projects />
+      </div>
+
+      <div className='bg-bright-yellow' id='project-dopami'>
+        <Dopami />
       </div>
     </div>
   )
