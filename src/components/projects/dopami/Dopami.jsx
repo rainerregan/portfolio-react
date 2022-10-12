@@ -14,6 +14,10 @@ function Dopami() {
         </Paragraph>
         <Line dataAos="fade-left" />
       </div>
+
+      <div className="flex flex-col justify-center">
+        {/* TODO: Screenshots */}
+      </div>
     </div>
   )
 }
