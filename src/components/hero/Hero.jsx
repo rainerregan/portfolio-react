@@ -7,6 +7,7 @@ import SampleApp from './SampleApp';
 import Editor from '../skills/Editor';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Paragraph from '../misc/Paragraph';
+import SectionNavigator from '../misc/SectionNavigator';
 
 function Hero() {
   return (
@@ -39,7 +40,7 @@ function Hero() {
           options={{
             autoStart: true,
             loop: true,
-            wrapperClassName: "text-2xl text-white font-jet-brains-mono",
+            wrapperClassName: "text-2xl text-gray-600 font-jet-brains-mono",
             cursorClassName: "Typewriter__cursor text-2xl"
           }}
         />
@@ -63,18 +64,13 @@ function Hero() {
           </a>
         </div>
 
-        <div className='flex items-center gap-4 mt-4 text-bright-red' data-aos="fade-up" data-aos-delay="300">
-          <Link className='w-[64px] h-[64px] border-2 border-white rounded-full flex justify-center items-center hover:cursor-pointer hover:bg-white hover:text-primary-gray transition duration-200' to="skills-section" spy={true} smooth={true} duration={1000}>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-            </svg>
-          </Link>
-          <p className='text-lg'>My Skills</p>
-        </div>
+        <SectionNavigator title={"My Skills"} to={"skills-section"} />
+
       </div>
 
       {/* <SampleApp className='flex flex-col gap-2 items-center justify-center' /> */}
-      <Editor />
+
+      <Editor className='pl-4' />
 
     </div>
   )

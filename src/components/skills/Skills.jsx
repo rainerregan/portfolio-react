@@ -14,43 +14,43 @@ function Skills() {
     return (
         <div className='w-full max-w-6xl m-auto px-4 h-screen text-bright-yellow flex flex-col justify-center py-16'>
             <div  data-aos="fade-right">
-                <h1 className='font-jet-brains-mono text-3xl font-semibold mb-2'>_My_Skills;</h1>
+                <h1 className='text-3xl font-semibold mb-2'>My Skills</h1>
                 <p className='text-calm-white'>Technical skills that I am experienced at.</p>
                 <Line />
             </div>
 
-            <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 w-full gap-4 mt-8'>
+            <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 w-full gap-4 mt-8'>
                 <SkillTab
-                    icon={<FaLaravel className="fill-bright-red w-14 h-14" />}
+                    icon={<FaLaravel />}
                     title="Laravel"
                     subtitle="Lorem ipsum sit dolor amet."
                 />
                 <SkillTab
-                    icon={<RiReactjsFill className="fill-bright-red w-14 h-14" />}
+                    icon={<RiReactjsFill />}
                     title="React"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="100"
                 />
                 <SkillTab
-                    icon={<RiFlutterFill className="fill-bright-red w-14 h-14" />}
+                    icon={<RiFlutterFill />}
                     title="Flutter"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="200"
                 />
                 <SkillTab
-                    icon={<FaPhp className="fill-bright-red w-14 h-14" />}
+                    icon={<FaPhp />}
                     title="PHP"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="300"
                 />
                 <SkillTab
-                    icon={<GrNode className="fill-bright-red w-14 h-14" />}
+                    icon={<GrNode />}
                     title="Node.js"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="400"
                 />
                 <SkillTab
-                    icon={<SiTailwindcss className="fill-bright-red w-14 h-14" />}
+                    icon={<SiTailwindcss />}
                     title="Tailwind CSS"
                     subtitle="Lorem ipsum sit dolor amet."
                     animateDelay="500"

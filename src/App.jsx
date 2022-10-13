@@ -14,7 +14,7 @@ function App() {
   return (
     <div id='main'>
       {/* Section 1 */}
-      <div className='bg-bright-yellow h-screen flex flex-col items-center' id='home-section'>
+      <div className='bg-calm-white h-screen flex flex-col items-center' id='home-section'>
         {/* <Header /> */}
         <Hero />
       </div>
@@ -25,7 +25,7 @@ function App() {
       </div>
 
       {/* Section 3 */}
-      <div className='bg-bright-yellow' id='projects-section'>
+      <div className='bg-calm-white' id='projects-section'>
         <Projects />
       </div>
 

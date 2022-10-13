@@ -1,9 +1,9 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 
-function Editor() {
+function Editor({className = ''}) {
     return (
-        <div className='flex justify-center items-center text-white' data-aos="zoom-in">
+        <div className={`flex justify-center items-center text-white ${className}`} data-aos="zoom-in">
             <div className='bg-dark-navy w-full rounded-xl flex flex-col shadow-lg shadow-gray-700/50'>
                 <div className='w-full h-[30px] bg-gradient-to-tr from-bright-red to-red-500 rounded-t-xl flex justify-between items-center px-4'>
                     <p className='text-xs text-white font-semibold'>cool_app.js</p>
