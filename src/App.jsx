@@ -15,12 +15,12 @@ function App() {
     <div id='main'>
       {/* Section 1 */}
       <div className='bg-bright-yellow h-screen flex flex-col items-center' id='home-section'>
-        <Header />
+        {/* <Header /> */}
         <Hero />
       </div>
 
       {/* Section 2 */}
-      <div className='bg-dark-navy h-screen' id='skills-section'>
+      <div className='bg-dark-navy' id='skills-section'>
         <Skills  />
       </div>
 
@@ -29,7 +29,7 @@ function App() {
         <Projects />
       </div>
 
-      <div className='bg-bright-yellow' id='project-dopami'>
+      <div className='bg-calm-white' id='project-dopami'>
         <Dopami />
       </div>
     </div>

@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import Line from '../misc/Line'
-import ProjectTile from './ProjectTile'
 
 function Projects() {
     return (
-        <div className='w-full max-w-6xl m-auto p-4 min-h-screen text-white grid grid-cols-2 gap-4 py-16'>
+        <div className='w-full max-w-6xl m-auto p-4 h-screen text-white grid grid-cols-2 gap-4 py-16'>
             <div className=' flex flex-col justify-center gap-4'>
                 <div>
                     <h1 className='font-jet-brains-mono text-6xl font-semibold text-bright-red mb-4' data-aos="fade-down">_MyProjects;</h1>
