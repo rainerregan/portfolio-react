@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Paragraph({dataAos, dataAosDelay, children}) {
+function Paragraph({dataAos, dataAosDelay, children, className = 'text-gray-500'}) {
   return (
-    <p className='text-base text-gray-500' data-aos={dataAos} data-aos-delay={dataAosDelay}>
+    <p className={`text-base ${className}`} data-aos={dataAos} data-aos-delay={dataAosDelay}>
       {children}
     </p>
   )

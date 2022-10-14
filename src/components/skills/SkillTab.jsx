@@ -3,7 +3,7 @@ import { ReactComponent as Laravel } from '../../assets/svg/laravel.svg'
 
 function SkillTab(props) {
   return (
-    <div id='anchor' className='w-full h-full aspect-square bg-calm-white p-4 rounded-xl flex flex-col gap-1 items-center justify-center'
+    <div id='anchor' className='w-full h-full aspect-square bg-gradient-to-bl shadow-lg from-gray-50 to-gray-300 p-4 rounded-xl flex flex-col gap-1 items-center justify-center'
       data-aos="fade-down"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="1000"

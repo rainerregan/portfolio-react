@@ -33,7 +33,7 @@ function Editor({className = ''}) {
                                         .pasteString('<span class="text-orange-400">"Rainer Regan"</span>;')
                                         .pasteString("<br>")
                                         .typeString('<span class="text-blue-400">const</span> skills = ')
-                                        .pasteString('[<span class="text-orange-400">"Laravel"</span>, <span class="text-orange-400">"React"</span>, <span class="text-orange-400">"PHP"</span>, <span class="text-orange-400">"Android Studio"</span>, <span class="text-orange-400">"Java"</span>];')
+                                        .pasteString('[<span class="text-orange-400">"Laravel"</span>, <span class="text-orange-400">"React"</span>, <span class="text-orange-400">"PHP"</span>, <span class="text-orange-400">"Android"</span>, <span class="text-orange-400">"Java"</span>, <span class="text-orange-400">"Javascript"</span>, <span class="text-orange-400">"Node.js"</span>];')
                                         .pauseFor(1000)
                                         .pasteString("<br>")
                                         .pasteString("<br>")

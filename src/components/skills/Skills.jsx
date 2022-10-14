@@ -16,7 +16,7 @@ function Skills() {
             <div  data-aos="fade-right">
                 <h1 className='text-3xl font-semibold mb-2'>My Skills</h1>
                 <p className='text-calm-white'>Technical skills that I am experienced at.</p>
-                <Line />
+                <Line color='white' />
             </div>
 
             <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 w-full gap-4 mt-8'>

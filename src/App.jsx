@@ -14,18 +14,18 @@ function App() {
   return (
     <div id='main'>
       {/* Section 1 */}
-      <div className='bg-calm-white h-screen flex flex-col items-center' id='home-section'>
+      <div className='bg-gradient-to-tr from-gray-50 to-gray-300 h-screen flex flex-col items-center' id='home-section'>
         {/* <Header /> */}
         <Hero />
       </div>
 
       {/* Section 2 */}
-      <div className='bg-dark-navy' id='skills-section'>
+      <div className='bg-gradient-to-br from-bright-red to bg-orange-500' id='skills-section'>
         <Skills  />
       </div>
 
       {/* Section 3 */}
-      <div className='bg-calm-white' id='projects-section'>
+      <div className='bg-gradient-to-tr from-gray-50 to-gray-300' id='projects-section'>
         <Projects />
       </div>
 

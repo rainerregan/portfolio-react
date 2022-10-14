@@ -64,7 +64,7 @@ function Hero() {
           </a>
         </div>
 
-        <SectionNavigator title={"My Skills"} to={"skills-section"} />
+        <SectionNavigator borderColor='border-' title={"My Skills"} to={"skills-section"} />
 
       </div>
 
